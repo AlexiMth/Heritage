@@ -1,5 +1,9 @@
+import Heritage.PointA;
+
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    PointA simon = new PointA();
+    simon.initialise(16, 3);
+    simon.afficher();
   }
 }
